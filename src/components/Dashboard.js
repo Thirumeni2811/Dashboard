@@ -6,7 +6,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { Link } from 'react-router-dom';
 import Projects from './Projects';
 import Logo from '../assets/Logo.svg'
-import Logo2 from '../assets/Logo2.svg'
+// import Logo2 from '../assets/Logo2.svg'
 const drawerWidth = 240;
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
@@ -30,9 +30,9 @@ function ResponsiveDrawer(props) {
   const drawer = (
     <section>
       <div className='min-h-screen bg-black text-white text-3xl font-bold'>
-        <div className='p-4'>
+        {/* <div className='p-4'>
           <img key="image" src={Logo2} alt="Logo" className='ml-6'/>
-        </div>
+        </div> */}
         <Divider />
         <List>
           {[
